@@ -5,9 +5,10 @@
 }
 
 body {
-  font-family: roboto, sans-serif;
+  font-family: roboto;
   margin: 18px;
   max-width: 320px;
+  background-color: #F8F8F8;
 }
 
 .second-header-group {
@@ -57,11 +58,35 @@ h1::before {
 
 }
 
+
+.side-menu-buttons{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+   margin-top: 32px;
+   gap: 16px;
+   overflow: hidden;
+   margin-left: 16px;
+}
+
+
 .side-menu-buttons button {
   padding: 8px;
   border: solid 2px #B8FFEC;
+  background-color: #FFFFFF;
+  border-radius: 5px;
 }
+
 
 .side-menu-buttons-2 {
   display: none;
+}
+
+article p {
+  margin: 16px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+  letter-spacing: 0.2;
 }
