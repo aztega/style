@@ -98,7 +98,6 @@ article p {
   font-size: 15px;
   text-align: left;
   line-height: 20px;
-  letter-spacing: 0.2;
   max-width: fit-content;
 }
 
@@ -111,10 +110,6 @@ article p {
 .readmore-cta img {
   width: 35px;
 margin-left: 16px;
-}
-
-.readmore-cta-button {
-  margin-left: 0;
 }
 
 .image-container img {
