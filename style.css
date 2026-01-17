@@ -5,10 +5,11 @@
 }
 
 body {
-  font-family: roboto;
+  font-family: 'TT Lakes Neue Trial', sans-serif;
   margin: 18px;
-  max-width: 320px;
+  max-width: 430px;
   background-color: #F8F8F8;
+  
 }
 
 .second-header-group {
@@ -57,31 +58,40 @@ h1::before {
   border-bottom-right-radius: 10px;
 
 }
-
+  
 
 .side-menu-buttons{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  flex-wrap: nowrap;
-   margin-top: 32px;
-   gap: 16px;
-   overflow: hidden;
+  display:flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  max-height: 40px;
+  min-width: 320px;
+   margin-top: 25px;
    margin-left: 16px;
+   overflow-x: auto;
+   gap: 10px;
 }
+
 
 
 .side-menu-buttons button {
   padding: 8px;
+  text-align: left;
+  width: 248px;
+  background-color: #F8F8F8;
+  font-family: inherit;
+  font-weight: 500;
+  color: #7E7E82;
+}
+
+.side-menu-buttons button:hover {
+  padding: 10px;
   border: solid 2px #B8FFEC;
   background-color: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 10px;
+
 }
 
-
-.side-menu-buttons-2 {
-  display: none;
-}
 
 article p {
   margin: 16px;
@@ -89,4 +99,13 @@ article p {
   text-align: left;
   line-height: 18px;
   letter-spacing: 0.2;
+  max-width: fit-content;
+}
+
+.readmore {
+  display: none;
+}
+
+.image-container img {
+width: 100%;
 }
