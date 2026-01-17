@@ -95,15 +95,26 @@ h1::before {
 
 article p {
   margin: 16px;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
-  line-height: 18px;
+  line-height: 20px;
   letter-spacing: 0.2;
   max-width: fit-content;
 }
 
-.readmore {
-  display: none;
+.readmore-cta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.readmore-cta img {
+  width: 35px;
+margin-left: 16px;
+}
+
+.readmore-cta-button {
+  margin-left: 0;
 }
 
 .image-container img {
