@@ -92,6 +92,10 @@ header .icons {
   margin: 10px;
 }
 
+.large-screen-header-nav p {
+  font-weight: 500;
+}
+
 .large-screen-header-nav div img {
   margin-left: 8px;
 }
